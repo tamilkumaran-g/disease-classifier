@@ -1,0 +1,4 @@
+%%writefile requirements.txt
+ultralytics>=8.3.0
+streamlit>=1.34
+Pillow>=10.0
