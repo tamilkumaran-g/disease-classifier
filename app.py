@@ -9,8 +9,7 @@ def load_model():
 
 model = load_model()
 
-st.title("🩻 Chest X-ray Disease Classifier")
-st.image("banner.png", use_column_width=True)  # Use a visible image on top
+st.title("🩻 Chest X-ray Disease Classifier") # Use a visible image on top
 st.markdown("Upload an X-ray image to predict the disease.")
 
 file = st.file_uploader("📤 Upload image", type=["jpg", "jpeg", "png"])
